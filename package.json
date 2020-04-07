@@ -1,0 +1,17 @@
+{
+    "name": "covid-19",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "rm data.json && node app.js",
+        "build": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "moment": "^2.24.0"
+    }
+}
